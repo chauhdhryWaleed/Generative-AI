@@ -1,0 +1,99 @@
+Welcome to the Salary Negotiation Simulator!
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): ai_engineer                                 
+Your starting offer is 85000
+Health Insurance: False
+401K: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 80000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Your move:  I would like to talk with you about salary or benefit. I would like a salary of 120k and with that my previous company was providing me with Health Insurance , 401K and 15 paid vacations 
+HR: Thank you for considering our job offer and sharing your expectations with us. I'm happy to discuss salary and benefits further.
+
+Regarding the salary, we appreciate your enthusiasm, but unfortunately, $120k is above our company's range. However, we are willing to consider a competitive offer within our range. After reviewing your application, we think you would be a great fit for our team, and we'd like to make a counteroffer of $100,000.
+
+As for benefits, I can confirm that we do provide health insurance as part of our standard package. However, the 401K plan is not typically included in our benefits, but we're willing to consider it as an additional perk. Regarding paid vacations, our company offers a generous amount of time off, including 10 paid vacation days.
+
+I'd like to propose a compromise on the salary and benefits. Would you be open to discussing a salary of $102,000, which is slightly above the upper limit of our range, in exchange for the health insurance and an additional $5,000 joining bonus? This would bring your total compensation package closer to what you're used to at your previous company.    
+
+Let's work together to find a mutually beneficial agreement. What are your thoughts on this proposal?
+
+
+
+Your move: Sorry i can not go for 100k the minimum i can go for is 105k. But with that i would like a 5k signing bonus. I want 15 vacation days instead of 10 and i also want 401k it is non negotiable  
+HR: I understand your concerns and would like to address each of your requests. However, I must emphasize that we're trying to find a mutually beneficial agreement.
+
+Regarding the salary, while $105,000 is still above our upper limit, I'm willing to consider it. However, I'd need to discuss this with my team and get back to you. In light of this, I can offer an additional 1,500 dollars on top of the initial proposal, making your total compensation package at $103,500.
+
+Regarding the signing bonus, I appreciate your enthusiasm, but we're not typically willing to grant bonuses exceeding $5,000. However, considering your previous request for health insurance and 401K, I can offer you a one-time $3,000 signing bonus instead of the usual $2,000.
+
+As for vacation days, while we understand your desire for more time off, our standard package is 10 paid vacation days. However, we're willing to consider an additional day or two, pending approval from my team. I can offer you an additional 12 paid vacation days, making a total of 22 days.
+
+Lastly, regarding the 401K plan, while it's not typically included in our benefits package, we're willing to consider it as an additional perk. However, please note that this is a non-standard benefit and would require approval from my team.
+
+Before we finalize any agreements, I'd like to discuss some unusual working hours and workload requirements with you. Our team has been facing some unique challenges recently, and we need someone who can adapt to our dynamic environment. We're looking for someone who can work occasional odd hours, including evenings or weekends, when necessary. Additionally, the workload can be quite demanding at times, requiring longer than usual working hours.
+
+Considering these requirements, I'd like to propose a compromise on your initial requests. Would you be open to accepting $103,500 in salary, along with the 3,000 signing bonus, and the additional vacation days? We're willing to consider your request for 401K as an additional perk, pending approval from my team.
+
+Please let me know if this proposal is acceptable to you, or if there's anything else we can discuss.
+
+
+
+Your move: If the work requires long working hours. Now my salary demand is 110k considering i would have to work longer and harder
+HR: Thank you for your thoughtful consideration of our proposal and your willingness to compromise on certain aspects. I understand that the work environment can be demanding at times, and we appreciate your flexibility.
+
+Regarding your revised salary demand of $110,000, I must reiterate that it's still above our company's upper limit. However, considering the unique circumstances you've described, I'm willing to explore alternative solutions.
+
+In light of these unusual working hours and workload requirements, I'd like to propose an additional 500 dollars on top of your initial offer, making your total compensation package at $104,000. This amount takes into account the additional demands we're placing on our team members.
+
+Regarding the signing bonus, I'm willing to revisit our earlier discussion and consider a one-time payment of $4,000 instead of the usual $3,000. This would bring your total compensation package closer to what you're used to at your previous company.
+
+As for the 401K plan, we still need to discuss this with my team, but I'm willing to keep it on the table as a potential perk.
+
+Before we finalize any agreements, I'd like to clarify some details regarding these unusual working hours. We understand that occasional odd hours or longer than usual working days may be required from time to time. Can you confirm your ability to adapt to this dynamic environment and work flexible hours when necessary?
+
+Let's work together to find a mutually beneficial agreement that takes into account the unique demands of our team. What are your thoughts on this revised proposal?
+
+
+Your move: I accept your offer
+
+
+Negotiation complete!
+Final score: Based on the chat log, I will score the negotiation skills as follows:
+
+1. Health Insurance: The HR confirmed that they provide health insurance as part of their standard package. Add 10 points.
+2. 401K Bonus: The HR offered to consider the 401K plan as an additional perk, pending approval from their team. Since it's not explicitly stated as a bonus, I'll add 5 points. 
+3. Signing Bonus: The HR offered a signing bonus of $4,000, which is more than the initial request. Add 5 points.
+4. Vacation Days: The HR offered an additional 12 paid vacation days, making a total of 22 days. Add 5 points.
+5. Salary: The accepted salary in the chat log is $104,000, which is higher than the user's BATNA of $80,000. Add 15 points (out of 20).
+
+Total Points = 35 out of 50
+
+The candidate was able to get a higher salary, additional vacation days, and signing bonus, while also negotiating for health insurance and 401K plan as an additional perk. The only aspect where they didn't quite get what they wanted is the number of paid vacation days, but they still got more than the initial offer.
+
+Since the offer was accepted, I'll consider their negotiation skills to be strong. They were able to effectively communicate their needs and wants, make compromises, and find a mutually beneficial agreement.
+Feedback on your negotiation skills:
+Feedback:
+
+1. Effectiveness of the candidate's tactics: The candidate effectively used a combination of assertive and compromising strategies to negotiate their desired salary and benefits. They stuck to their initial demands but were willing to consider alternatives and counteroffers.
+
+2. Communication clarity: Both parties communicated clearly, with no confusion or misinterpretation. The HR representative provided detailed explanations for each offer and counteroffer, allowing the candidate to make informed decisions.
+
+3. Professionalism: The candidate demonstrated professionalism throughout the negotiation by being respectful, courteous, and open-minded. They maintained a positive tone and avoided aggressive or confrontational behavior.
+
+4. Alignment with negotiation best practices: The negotiation followed many of the recommended best practices, including:
+   - Setting clear goals and expectations
+   - Researching the market to determine a fair salary range
+   - Making concessions in exchange for other benefits
+   - Being willing to compromise
+
+5. Size of chat log: The chat log is relatively long, indicating that the negotiation was detailed and thorough. However, it could be condensed to focus on the most important points and avoid repetition.
+
+Suggestions for improvement:
+
+- Consider providing more specific data or research to support salary demands (e.g., industry standards, comparable salaries in similar roles)
+- Be prepared to make concessions earlier in the negotiation process to reach a mutually beneficial agreement
+- Focus on the benefits that are most important to the candidate and prioritize those during the negotiation
+- Use "time" to your advantage by asking for time to consider an offer or counteroffer before responding
