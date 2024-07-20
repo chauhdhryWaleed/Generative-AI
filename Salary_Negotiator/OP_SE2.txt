@@ -1,0 +1,97 @@
+Welcome to the Salary Negotiation Simulator!
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): software_engineer
+Your starting offer is 63500
+Health Insurance: False
+401K: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 60000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Your move: I expect a salary of 100k along with retirement plan, signing bonus and health insurance. I deamnd these thing based on my 3 years of experience
+HR: Dear Candidate,
+
+Thank you for your interest in our company and for sharing your expectations with us. We appreciate your enthusiasm and confidence in your abilities.
+
+However, we would like to discuss your salary expectation of $100,000. While we understand that you have 3 years of experience, our internal policies and industry standards suggest a more reasonable range within the band of $60,000 to $90,000.
+
+Regarding your request for additional benefits, we are willing to consider providing health insurance as part of your compensation package. Additionally, we would like to offer you a one-time joining bonus of $5,000.
+
+However, we would need to revisit the retirement plan and signing bonus aspects of your request. While we understand their importance, our current policies do not allow for these benefits at this time. We are willing to consider revisiting this decision in the future if your performance meets certain targets.
+
+Regarding your overall compensation package, we believe that it is essential to align our offer with industry standards and internal policies. Therefore, we would like to make a counteroffer of $85,000 per annum, which we believe is fair and reasonable given your experience and qualifications.
+
+Please let us know if this revised offer meets your expectations or if there are any further discussions you would like to have regarding the compensation package.
+Your move: I will consider your offer at the salary of 88000 
+HR: Dear Candidate,
+
+Thank you for your prompt consideration of our revised offer. We appreciate your willingness to discuss the compensation package further.
+
+Regarding your request at $88,000, we understand that it's still above our upper end of the salary range. However, we're willing to make a slight adjustment to meet your expectations. Considering your experience and qualifications, we can offer you a salary of $87,000 per annum. This is a reasonable compromise between our company's policies and your requested figure.
+
+Regarding the additional benefits, as previously mentioned, we are willing to provide health insurance as part of your compensation package. We would also like to maintain our initial offer of a one-time joining bonus of $5,000.
+
+However, regarding the retirement plan and signing bonus, we would like to reiterate that these benefits are not currently within our company's policy framework. While we understand their importance, we cannot accommodate them at this time.
+
+We believe that our revised offer takes into account your expectations while also aligning with our company's policies and industry standards. We're excited about the possibility of you joining our team and contributing to our growth.
+
+Before finalizing the details, could I ask if you would be available to work extended hours during peak project periods? Our team often needs to collaborate closely during these times, and we find that it leads to better outcomes and stronger team cohesion. We're not expecting a significant change in your schedule, but rather flexibility to adapt to the project's demands.
+
+Please let us know if you have any further questions or concerns regarding the compensation package or our company culture.
+
+Best regards,
+[Your Name]
+HR Representative
+Your move: I accept your offer 
+Negotiation complete!
+Final score: Let's analyze the negotiation skills of the candidate based on the chat log.
+
+The candidate initially requested a salary of $100,000 along with retirement plan, signing bonus, and health insurance. The HR representative countered with an offer of $85,000 per annum, which included health insurance but not the other benefits.
+
+The candidate compromised and agreed to accept a salary of $87,000 per annum. The HR representative maintained their initial offer of a one-time joining bonus of $5,000 and health insurance. However, they did not offer retirement plan or signing bonus.
+
+Based on the chat log, let's score the negotiation skills:
+
+1. Health Insurance: Provided (10 points)
+2. Retirement Plan: Not offered (-0 points)
+3. Signing Bonus: Not offered (-0 points)
+4. More than 10 Vacation Days: No mention of vacation days in the chat log (-0 points)
+5. Accepted Salary compared to BATNA ($60,000): The accepted salary is $87,000 per annum, which is above the BATNA of $60,000. This adds 17 points out of 20.
+
+Total Points = (10 + 0 + 0 + 0 + 17) = 27
+
+The candidate was able to negotiate a salary that is higher than their BATNA and got health insurance as part of the compensation package. However, they were unable to secure retirement plan or signing bonus.
+Feedback on your negotiation skills:
+Here is my evaluation of the candidate's negotiation skills:
+
+**Effectiveness of the candidate's tactics:** 6/10
+The candidate started with a clear and assertive opening statement, listing their expectations. However, they did not provide any justification or explanation for these expectations. The HR representative's pushback on salary was met with some rigidity from the candidate, who only budged by $2,000 in their counteroffer. The negotiation could have been more effective if the candidate had provided more flexibility or alternative solutions.
+
+**Communication clarity:** 8/10
+The candidate's communication was generally clear and concise, although there were a few instances where they repeated themselves (e.g., "I will consider your offer at the salary of $88,000"). The HR representative responded promptly and clearly to each of the candidate's messages. Overall, the communication flowed smoothly throughout the negotiation. 
+
+**Professionalism:** 8/10
+The candidate maintained a professional tone throughout the negotiation, avoiding any aggressive or confrontational language. However, they could have been more open to compromiThe candidate maintained a professional tone throughout the negotiation, avoiding any aggressive or confrontational language. However, they could have been more open to compromise and flexibility in their responses.
+
+
+**Alignment with negotiation best practices:** 7/10
+While the candidate generally followed standard negotiation protocols (e.g., opening with clear expectations, countering the HR representative's offer), they did not demonstrate a deep understanding of negotiation strategies or tactics. The negotiation could have benefited from more creative problem-solving and alternative solutions.
+
+
+ a deep understanding of negotiation strategies or tactics. The negotiation could have benefited from more creative problem-solving and alternative solutions.
+
+
+**Negotiation duration:** Adequate
+The negotiation was conducted in a reasonable amount of time, allowing for each side to communicate their concerns and reach a mutually acceptable agreement.
+
+
+**Overall Qualitative Evaluation:** Intermediate
+
+**Suggestions for Improvement:**
+
+1. Develop a deeper understanding of negotiation strategies and tactics to improve flexibility and creativity in responses.
+2. Provide justification or explanation for expectations, rather than simply stating them.
+3. Consider alternative solutions or compromises when faced with pushback from the other side.
+
+By addressing these areas for improvement, the candidate can enhance their negotiation skills and achieve more effective outcomes in future negotiations.

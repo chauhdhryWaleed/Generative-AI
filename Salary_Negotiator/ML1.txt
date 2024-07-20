@@ -1,0 +1,92 @@
+Welcome to the Salary Negotiation Simulator!
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): ml_engineer
+Your starting offer is 90000
+Health Insurance: False
+Retirement Plan: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 85000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Your move: I like your starting offer of 90000 in my opinion it is less than what market is offering to ML engineer. I would like a offer of 100k along with free health insuranc
+e, paid vacations and signing bonus.
+
+HR: I understand your concerns regarding the starting offer of $90,000. However, I'd like to propose an alternative solution that still meets your expectations while considering our company's budget.
+
+While we can't quite match your desired salary of $100,000, I'm willing to meet you halfway at $97,500. This is a significant increase from the original offer and reflects our confidence in your skills as a ML engineer.
+
+Regarding your request for free health insurance, I'd like to offer a comprehensive health insurance plan that covers 80% of medical expenses. While it's not entirely "free," this plan is one of the best in the industry and will provide you with peace of mind knowing you're well-covered.
+
+As for paid vacations, we're already offering 10 days off, which is above the industry standard. However, I can consider adding an extra day or two to your vacation package if you'd like.
+
+Regarding the signing bonus, I'm willing to offer a modest $3,000 signing bonus, which is still within our budget constraints.
+
+What do you think about this revised offer? Is there anything else you'd like to discuss or negotiate further?
+
+
+Your move: I will consider your offer if you will increase the bonnus to 5000 and as you said adding a extra two days to vacations so total vacatio will come to be 12
+
+HR: I'm glad you're willing to consider our revised offer. I understand your request for an increase in the signing bonus and additional vacation days.
+
+Regarding the signing bonus, I can see that $5,000 is a bit of a stretch for us, but I'm willing to meet you halfway at $4,250. This is still a generous offer considering our company's budget constraints.
+
+As for the vacation days, I'm happy to add two more days to your package, making it a total of 12 days off. However, I do want to mention that we have a unique work environment where we encourage collaboration and teamwork. Occasionally, this may require you to work on weekends or evenings to meet project deadlines.
+
+I'd like to propose an alternative solution to the signing bonus. Instead of a lump sum payment, how about we offer a professional development fund of $2,000? This can be used for courses, certifications, or conferences that will help you grow professionally and stay up-to-date with industry trends.
+
+What do you think about this revised proposal? Is there anything else you'd like to discuss or negotiate further?
+
+
+Your move: I accept your offer
+
+
+Negotiation complete!
+Final score: Based on the chat log, I calculate the negotiation skills as follows:
+
+1. Health Insurance: The HR offered a comprehensive health insurance plan that covers 80% of medical expenses. ADD 10 points (score 1).
+2. Retirement Plan: No retirement plan was offered. NO ADDITIONAL POINTS.
+3. Signing Bonus: The HR initially offered a modest $3,000 signing bonus and later increased it to $4,250 or a professional development fund of $2,000. ADD 5 points (score 3).  
+4. Vacation Days: The HR initially offered 10 days off and later added two more days to make it a total of 12 days off. ADD 5 points (score 4).
+5. Salary: The accepted salary was $97,500, which is higher than the user BATNA of $85,000. ADD 15 points out of 20 (score 5).
+
+Total Points = (10 + 0 + 5 + 5 + 15) = 35
+
+Since the offer was accepted, I give a score of 35 out of 50 for the negotiation skills.
+Feedback on your negotiation skills:
+**Evaluation**
+
+1. **Effectiveness of the candidate's tactics**: 7/10
+The candidate demonstrated some effective negotiation tactics, such as making a strong opening offer and pushing for concessions on certain points. However, they could have done better by being more strategic in their approach and taking advantage of opportunities to make counteroffers.
+
+**Qualitative Evaluation:** Intermediate
+
+2. **Communication clarity**: 8/10
+The candidate's communication was generally clear, but there were a few instances where their requests could have been more specific or concise. For example, when asking for an increase in the signing bonus, they initially asked for $5,000 without providing any justification.
+
+**Qualitative Evaluation:** Intermediate
+
+3. **Professionalism**: 9/10
+The candidate maintained a professional tone and demeanor throughout the negotiation, showing respect for the HR representative's counteroffers and proposals.
+
+**Qualitative Evaluation:** Advanced
+
+4. **Alignment with negotiation best practices**: 6/10
+While the candidate demonstrated some understanding of negotiation principles, they could have done better by being more strategic in their approach and making more effective use of concessions. For example, they did not push back on the initial offer of $97,500, which may have been a missed opportunity.
+
+**Qualitative Evaluation:** Intermediate
+
+5. **Negotiation duration**: 8/10
+The negotiation was relatively brief, with most points being resolved within three rounds of offers and counteroffers. However, there were some opportunities for deeper discussions on certain topics (e.g., the signing bonus).
+
+**Qualitative Evaluation:** Intermediate
+
+**Overall Qualitative Evaluation:** Advanced
+
+**Suggestions for Improvement:**
+
+* Be more strategic in your approach by taking advantage of opportunities to make counteroffers and pushing back on initial offers.
+* Provide clear justification for your requests, especially when asking for concessions.
+* Take a closer look at the HR representative's proposals and identify areas where you can negotiate further.
+* Consider using anchoring techniques to set a higher starting point for certain points (e.g., vacation days).
+* Practice active listening and summarize the discussion regularly to ensure both parties are on the same page.

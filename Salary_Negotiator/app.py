@@ -1,4 +1,3 @@
-import streamlit as st
 import random
 import ollama
 
@@ -27,9 +26,6 @@ class NegotiationSimulator:
                 "starting_offer": 85000
             }
         }
-        self.reset_simulation()
-
-    def reset_simulation(self):
         self.negotiation_state = {}
         self.chat_log = []
         self.user_score = 0
@@ -42,7 +38,7 @@ class NegotiationSimulator:
                 "salary_range": salary_range,
                 "benefits": {
                     "health_insurance": False,
-                    "401k": False,
+                    "retirement_plan": False,
                     "vacation_days": 10,
                     "signing_bonus": 0
                 },
@@ -55,7 +51,8 @@ class NegotiationSimulator:
             }
         else:
             raise ValueError(f"Job role '{role}' is not recognized.")
-
+    def get_benefit(self, benefit_name):
+        return self.negotiation_state["benefits"].get(benefit_name)
     def generate_random_offer(self, salary_range):
         upper_limit = salary_range[0] + 5000
         random_offer = random.randint(0, (upper_limit - salary_range[0]) // 500) * 500 + salary_range[0]
@@ -65,169 +62,201 @@ class NegotiationSimulator:
         response = ollama.chat(model=self.model_name, messages=[
             {"role": "system", "content": "You are an expert HR representative in salary negotiations."},
             {"role": "user", "content": prompt}
-        ])
+        ],
+
+    options={
+        'temperature': 0.3,
+        'num_ctx': 4096
+        # Add other parameters as needed
+    }
+    )
         return response['message']['content']
 
     def generate_score(self, prompt):
         response = ollama.chat(model=self.model_name, messages=[
             {"role": "system", "content": "You are an expert in scoring the negotiation skills of candidates."},
             {"role": "user", "content": prompt}
-        ])
+        ],
+
+    options={
+        'temperature': 0.5
+        
+        # Add other parameters as needed
+    })
         return response['message']['content']
 
     def generateFeedback(self, prompt):
         response = ollama.chat(model=self.model_name, messages=[
-            {"role": "system", "content": "You are an expert in providing Feedback to negotiation skills of Job Candidate."},
+            {"role": "system", "content": "You are an expert in providing feedback on the negotiation skills of job candidates."},
             {"role": "user", "content": prompt}
-        ])
+        ],
+
+    options={
+        'temperature': 0.7,
+        
+        # Add other parameters as needed
+    })
         return response['message']['content']
 
     def generate_feedback(self):
-        prompt = f"""
-        Evaluate this negotiation based on the chat log:
-        
+       prompt = f"""
+        Evaluate the following negotiation based on the chat log:
+
         {self.format_chat_log()}
 
-        Provide feedback only on Candidate chat from the Chatlog and score each of these points out of 10:
-        1. Effectiveness of the candidate's tactics
-        2. Communication clarity of candidate
-        3. Professionalism of candidate
-        4. Alignment with negotiation best practices 
-        5. If the Negotiation Duration is short, it indicates that the candidate did not negotiate much, but they should have. If the Negotiation Duration is adequate, the feedback will be positive.
+        Please provide feedback focusing solely on the candidate's contributions. For each of the following criteria, score out of 10 and provide a qualitative evaluation (Beginner, Intermediate, or Advanced) against each of the evaluation metrics below. Here are some guidelines and examples to help you with the qualitative evaluation:
 
-        According to the negotiation skills give Qualitative Evaluation
-        Beginner , Intermediate or Advanced 
-        
-        Suggest improvements if necessary.
+        1. **Effectiveness of the candidate's tactics**: 
+        - **Beginner**: The candidate shows basic understanding of negotiation tactics but fails to apply them effectively.
+        - **Intermediate**: The candidate applies some effective tactics and demonstrates a good understanding, but there is room for improvement.
+        - **Advanced**: The candidate uses advanced tactics effectively and strategically, showing a deep understanding of negotiation principles.
+
+        2. **Communication clarity**:
+        - **Beginner**: The candidate's communication is often unclear or confusing, making it hard to follow their points.
+        - **Intermediate**: The candidate communicates clearly most of the time but may occasionally be vague or need further elaboration.
+        - **Advanced**: The candidate communicates with exceptional clarity and precision, making their points easily understood and persuasive.
+
+        3. **Professionalism**:
+        - **Beginner**: The candidate displays unprofessional behavior or responses, lacking in etiquette or respect.
+        - **Intermediate**: The candidate demonstrates professional behavior generally but may have minor lapses in etiquette or tone.
+        - **Advanced**: The candidate maintains a high level of professionalism throughout, exhibiting excellent etiquette and respect.
+
+        4. **Alignment with negotiation best practices**:
+        - **Beginner**: The candidate's actions and decisions do not align well with established negotiation best practices.
+        - **Intermediate**: The candidate aligns with best practices in most areas but may miss some key aspects.
+        - **Advanced**: The candidate’s actions and decisions are consistently aligned with best practices, showing a thorough understanding and application.
+
+        5. **Negotiation duration**:
+        - **Beginner**: The negotiation was too brief, indicating that the candidate did not engage in sufficient negotiation.
+        - **Intermediate**: The negotiation duration was appropriate but could benefit from more in-depth discussions.
+        - **Advanced**: The negotiation duration was optimal, with the candidate engaging deeply and effectively.
+
+        **Overall Qualitative Evaluation**: Based on the individual evaluations above, provide one overall qualitative evaluation for the candidate's negotiation skills (Beginner, Intermediate, or Advanced).
+
+        **Suggestions for Improvement**: Provide specific suggestions to help the candidate improve their negotiation skills, if applicable.
         """
-        return self.generateFeedback(prompt)
+
+       return self.generateFeedback(prompt)
+
 
     def format_chat_log(self):
         return "\n".join([f"{role}: {message}" for role, message in self.chat_log])
 
     def calculate_score(self):
         prompt = f"""
-        Score the negotiation skills of Candidate based on the chat log:
+        Score the negotiation skills of the candidate based on the chat log:
         Chat log: {self.format_chat_log()} 
 
         Consider these before scoring the negotiation skills:
         User BATNA: {self.negotiation_state["user_batna"]}
         Offer Accepted: {self.negotiation_state["offer_accepted"]}
 
-        IF the offer was accepted then also consider if candidate was able to get these things based on the chat log
-        Score the skills on the basis of this:
+        IF the offer was accepted, then also consider if the candidate was able to secure the following based on the chat log:
+        Score the skills on the strictly on basis of these 5 evaluation metrices below:
         
-        1. If Health Insurance Provided ADD 10 points (score 1)
-        2. If Retirement plan offered add 10 points (score 2)
-        3. If Signing Bonus provided ADD 5 points (score 3)
-        4. If more than 10 Vacation Days provided Add 5 points (score 4)
-        5. If the accepted salary in CHAT LOG is more than user BATNA {self.negotiation_state["user_batna"]} add points accordingly out of 20 .(score 5)
+        1. If Health Insurance was provided, ADD 10 points (score 1).
+        2. If Retirement plan was offered, ADD 10 points (score 2).
+        3. If Signing Bonus was provided, ADD 5 points (score 3).
+        4. If more than 10 Vacation Days were provided, ADD 5 points (score 4).
+        5. If the accepted salary in the chat log is more than the user BATNA {self.negotiation_state["user_batna"]}, ADD points accordingly out of 20 (score 5).
         
-        Total Points = (score 1+score 2+score 3+score 4+score 5) out of 50
-        IF the offer was not accepted then give 0 points.
+        Total Points = (score 1 + score 2 + score 3 + score 4 + score 5) out of 50.
+
+        NOTE:
+        "DO NOT PROVIDE ANY ADDITIONAL FEEDBACK BESIDES CALCULATING SCORE"
+
+
+        IF the offer was not accepted, then give 0 points.
         """
         return self.generate_score(prompt)
 
     def hr_response(self, user_input, role, start_offer):
+    # Conditional statement based on the include_unexpected_events flag
         unexpected_event_statement = ""
         if self.include_unexpected_events:
-            unexpected_event_statement = "Important note: Only when the candidate talks about accepting the offer or considering the offer than introduce some unexpected events event which will Prolong the negotiation deal like Strange working hours or longer than usual working hours more than 8"
+            unexpected_event_statement = "Important note: Only when the candidate talks about accepting the offer or considering the offer then introduce some unexpected events that will prolong the negotiation, such as unusual working hours or other surprising company policies."
+
+        health_insurance = self.negotiation_state["benefits"].get("health_insurance")
+        retirement_plan = self.negotiation_state["benefits"].get("retirement_plan")
+        vacation_days = self.negotiation_state["benefits"].get("vacation_days")
+        signing_bonus = self.negotiation_state["benefits"].get("signing_bonus")
 
         context = f"""
         You are an HR representative in a salary negotiation for a {role}. Consider the following points in your response:
-        1. If the offer made by the candidate is above company's Salary range then do not accept the offer and negotiate the salary below the UPPER END of salary range.
-        2. If the candidate asks for salary which is less than the upper limit of salary range. Then accept their offer after slight negotiation. 
-        3. Avoid easily granting benefits like retirement plan and more than 10 paid vacation days.
-        4. If the candidate asks for health insurance, signing bonus. Then give him health insurance and 5k joining bonus strictly no more than 5k joining bonus
-        5. If the candidate is persistent in getting these benefits, then grant him after some negotiation.
-        6. Respond to the candidate's offer or request while considering the company's BATNA and ZOPA.
-        7. While giving a response to the candidate DO NOT MENTION ABOUT company's BATNA and ZOPA and Salary Range.
+        1. If the candidate's offer is less than {self.negotiation_state["company_batna"]}, provide a response that accepts their offer.
+        2. If the candidate's offer is close to {self.negotiation_state["company_batna"]}, provide a response that negotiates slightly with them. If they talk about their long experience and skills than accept their salary offer.
+        3. Avoid easily granting benefits like retirement plans and more than 10 paid vacation days.
+        4. If the candidate requests free health insurance than offer a free health insurance plan.
+        5. If the candidate requests signing bonus,  offer a modest signing bonus ( up to 5k), but be prepared to negotiate these terms.
+        
 
         Negotiation context:
-        Salary range: {self.negotiation_state['salary_range']}
         Starting offer: {start_offer}
-        ZOPA: {self.negotiation_state['zopa']}
-        Company’s BATNA: {self.negotiation_state['company_batna']}
-    
+
+        Intial Benefits Being provided:
+        Health Insurance: {health_insurance}
+        Retirement Plan: {retirement_plan}
+        Vacation Days: {vacation_days}
+        Signing Bonus: {signing_bonus}
+       
+        
         Chat history:
         {self.format_chat_log()}
 
         Candidate's statement or offer:
         {user_input}
 
-        
         {unexpected_event_statement}
-        
-        Provide a response as the HR representative:
+
+        Provide a response as the HR representative, focusing on discussing salary and benefits without formalities.
         """
         return self.generate_response(context)
 
-    def run_negotiation(self, user_input, job_role):
-        if job_role not in self.job_roles:
-            raise ValueError(f"Job role '{job_role}' is not recognized.")
-        
-        if not self.negotiation_state:
+
+    def run_negotiation(self):
+        print("Welcome to the Salary Negotiation Simulator!")
+
+        job_role = input("Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): ").lower()
+        try:
             self.set_job_role(job_role)
-        
+        except ValueError as e:
+            print(e)
+            return
+
         start_offer = self.negotiation_state['starting_offer']
+        print(f"Your starting offer is {start_offer}")
 
-        self.chat_log.append(("Candidate", user_input))
-        hr_response = self.hr_response(user_input, job_role, start_offer)
-        self.chat_log.append(("HR", hr_response))
+        benefits = self.negotiation_state["benefits"]
+        for benefit, value in benefits.items():
+            print(f"{benefit.replace('_', ' ').title()}: {value}")
+        print(f"Your BATNA (Best Alternative to a Negotiated Agreement) is {self.negotiation_state['user_batna']}")
+        print("Let's begin the negotiation. Type your statements or offers.\n\n")
+        print("Company batna for the role of ", {job_role}, "is ",self.negotiation_state["company_batna"])
+        while True:
+            user_input = input("Your move: ")
+            self.chat_log.append(("Candidate", user_input))
+            if "accept your offer" in user_input.lower():
+                self.negotiation_state["offer_accepted"] = "YES"
+                print("Negotiation complete!")
+                self.user_score = self.calculate_score()
+                print(f"Final score: {self.user_score}\n\n")
+                break
+            if "reject your offer" in user_input.lower():
+                break
+            
+            print('\n\n')
+            hr_response = self.hr_response(user_input, job_role, start_offer)
+            print("HR:", hr_response)
+            self.chat_log.append(("HR", hr_response))
+            print("." * 50)
 
-        if "accept your offer" in user_input.lower():
-            self.negotiation_state["offer_accepted"] = "YES"
-            self.user_score = self.calculate_score()
-            feedback = self.generate_feedback()
-            return hr_response, self.user_score, feedback, True
-        if "reject your offer" in user_input.lower():
-            feedback = self.generate_feedback()
-            return hr_response, None, feedback, True
-        return hr_response, None, None, False
+        print("\n\n")
+        feedback = self.generate_feedback()
 
-
-def main():
-    st.title("Salary Negotiation Simulator")
-
-    if 'simulator' not in st.session_state:
-        st.session_state.simulator = NegotiationSimulator()
-
-    simulator = st.session_state.simulator
-
-    if 'job_role' not in st.session_state:
-        st.session_state.job_role = None
-
-    job_role = st.selectbox("Select Job Role", [
-        "office_boy", "software_engineer", "senior_software_engineer", "ai_engineer", "ml_engineer"
-    ])
-
-    # Update session state with the selected job role
-    st.session_state.job_role = job_role
-
-    user_input = st.text_area("Your Statement or Offer", "")
-
-    if st.button("Submit"):
-        if user_input and st.session_state.job_role:
-            hr_response, score, feedback, negotiation_ended = simulator.run_negotiation(user_input, st.session_state.job_role)
-            st.subheader("Chat History:")
-            st.write(simulator.format_chat_log())
-            st.subheader("HR Response:")
-            st.write(hr_response)
-            if score is not None:
-                st.subheader("Final Score:")
-                st.write(score)
-            st.subheader("Feedback:")
-            st.write(feedback)
-
-            if negotiation_ended:
-                st.success("Negotiation has ended. Click 'Start New Negotiation' to begin again.")
-        else:
-            st.warning("Please enter your statement or offer and select a job role.")
-
-    if st.button("Start New Negotiation"):
-        st.session_state.simulator.reset_simulation()
-        st.session_state.job_role = None
-        st.experimental_rerun()
+        print("Feedback on your negotiation skills:\n\n")
+        print(feedback)
 
 if __name__ == "__main__":
-    main()
+    simulator = NegotiationSimulator()
+    simulator.include_unexpected_events = True  # Set this to True if you want to include unexpected events
+    simulator.run_negotiation()

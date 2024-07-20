@@ -1,0 +1,74 @@
+Welcome to the Salary Negotiation Simulator!
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): ml_engineer                                 
+Your starting offer is 86000
+Health Insurance: False
+Retirement Plan: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 85000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Your move: I have 5 years of experience as ML engineer. I have worked with LLMS, generative ai, built rag models. I also have experince in prompt engineering. All these skills prove my passion about this field. Keeping this in mind i demand a salary of 110k. I will not settle for less than this. Additionally i want health insurance and 20 paid vacations 
+
+
+
+HR: Thank you for sharing your impressive experience and skills with us. We're excited to discuss the compensation package for this role.
+
+I understand that you're looking for a salary of $110k, which is a competitive offer considering your background. However, our standard range for ML engineers with 5 years of experience is around $100k to $105k. I'd like to propose a compromise: would you be open to discussing a salary of $108k? This is still above the market average and reflects your unique skills and passion for the field.
+
+Regarding benefits, I'm happy to offer you our standard health insurance plan, which covers a significant portion of medical expenses. However, we cannot provide 20 paid vacation days as it's not in line with our company policy. We can discuss flexible work arrangements or additional time off during the year if needed.
+
+As for signing bonus, we're willing to consider a modest offer of $3k to $5k, depending on your negotiation skills.
+
+What are your thoughts on this proposal? Are you willing to consider the revised salary and benefits package?
+..................................................
+Your move: I accept your offer
+Negotiation complete!
+Final score: Based on the chat log, I will calculate the negotiation skills score as follows:
+
+1. Health Insurance: The HR offered a standard health insurance plan, which is worth 10 points (score 1).
+2. Retirement Plan: No retirement plan was mentioned or offered in the chat log, so no points for this metric.
+3. Signing Bonus: A modest signing bonus of $3k to $5k was proposed, worth 5 points (score 3).
+4. Vacation Days: The HR could not provide 20 paid vacation days as per company policy, but mentioned flexible work arrangements or additional time off during the year. No points for this metric.
+5. Salary: The accepted salary of $108k is more than the user BATNA of $85,000, worth 17.5 points out of 20 (score 5).
+
+Total Points = (10 + 0 + 5 + 0 + 17.5) = 32.5
+
+Since the offer was accepted, I will calculate the total score as:
+
+Total Score = 32.5
+
+
+
+
+
+Feedback on your negotiation skills:
+
+
+Here is the evaluation of the candidate's negotiation skills:
+
+**Effectiveness of the candidate's tactics:** 4/10 - Intermediate
+The candidate starts off strong by making a demand, but then fails to negotiate effectively. They do not counter-propose or push back on the HR representative's offer, instead accepting it without much discussion.
+
+**Communication clarity:** 8/10 - Advanced
+The candidate communicates their points clearly and concisely throughout the negotiation. Their responses are direct and easy to understand.
+
+**Professionalism:** 9/10 - Advanced
+The candidate maintains a professional tone and demeanor throughout the negotiation, showing respect for the HR representative's time and proposal.
+
+**Alignment with negotiation best practices:** 6/10 - Intermediate
+While the candidate starts off by making a demand, they do not engage in any further negotiation or counter-proposal. They do not take advantage of opportunities to ask questions or clarify the terms of the offer.
+
+**Negotiation duration:** 8/10 - Advanced
+The negotiation is brief and to the point, indicating that the candidate has effectively summarized their key points and made a decision.
+
+**Overall Qualitative Evaluation:** Intermediate
+
+**Suggestions for Improvement:**
+
+1. Practice counter-proposing and pushing back on offers to demonstrate flexibility and assertiveness.
+2. Ask clarifying questions to better understand the terms of the offer and identify potential areas for negotiation.
+3. Take time to think before making a decision, rather than accepting an offer without fully considering it.
+
+Overall, while the candidate demonstrates some strong negotiation skills, such as professionalism and communication clarity, they could benefit from practicing more advanced negotiation tactics and strategies.
