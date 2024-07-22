@@ -1,20 +1,5 @@
 import random
 import ollama
-
-import time
-from pushbullet import Pushbullet
-
-# Your Pushbullet Access Token
-access_token = 'o.D65e4ilb4gxk07mHWGuzvW87CDxjvS8f'
-
-# Initialize Pushbullet
-pb = Pushbullet(access_token)
-
-# Function to send Pushbullet notification
-def send_pushbullet_notification(title, body):
-    push = pb.push_note(title, body)
-    print(f'Notification sent: {push}')
-
 class NegotiationSimulator:
     def __init__(self):
         self.model_name = "llama3:8b-instruct-q4_K_M"  # or "llama2:13b" depending on your Ollama setup
@@ -321,4 +306,4 @@ if __name__ == "__main__":
     simulator = NegotiationSimulator()
     simulator.include_unexpected_events = True  # Set this to True if you want to include unexpected events
     simulator.run_negotiation()
-    send_pushbullet_notification("LLM Response Ready", "LLM has generated a response")
+    
