@@ -1,0 +1,121 @@
+Welcome to the Salary Negotiation Simulator!
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): office_boy
+Your starting offer is 30500
+Health Insurance: False
+Retirement Plan: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 30000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Company batna for the role of  {'office_boy'} is  550000
+Your move: I have been working as a office boy for the previous ten years. The last company i worked provided me with health insurance, 10 paid vacations and 40k sal
+
+
+
+HR: Thank you for sharing your previous experience and compensation package with us. I'm impressed by your long tenure in the office boy role. Based on our starting offer of $30,500, I'd like to discuss the possibility of adjusting it.
+
+Considering your extensive experience and skills, I think we can meet somewhere in between our initial offer and your previous salary. Would you be open to discussing a salary closer to $45,000? This would still be below your previous package, but we're willing to provide other benefits that will make up for the difference.
+
+Regarding health insurance, I'm happy to inform you that we can offer a free health insurance plan as part of our compensation package. We believe this is an important benefit that will help you and your family stay healthy and secure.
+
+As for vacation days, we're already offering 10 paid days off, which is in line with industry standards. However, I'd like to discuss the possibility of adding a few extra days off during peak holiday seasons or special occasions.
+
+Lastly, regarding signing bonuses, we're willing to offer a modest bonus of $2,000 to help you transition into our company smoothly. This amount is negotiable, and I'm open to discussing it further if needed.
+
+What are your thoughts on these proposals? Are there any other benefits or perks that you'd like to discuss?
+..................................................
+Your move: With the things you offered I would like a salary of  48000 and 12 paid vacations          
+
+
+
+HR: I understand your concerns and appreciate the value you're placing on your experience and skills. I'm happy to revisit the salary discussion with you.
+
+Regarding your request for $48,000, I'd like to acknowledge that it's a significant increase from our initial offer of $30,500. While we can't meet your exact request, I'm willing to consider a compromise. Given your extensive experience and skills, I think we could meet somewhere in between our initial offer and your requested salary.
+
+Let me propose an alternative: would you be open to discussing a salary of $42,000? This is still below your previous package, but we're offering other benefits that will make up for the difference. We're also willing to provide a free health insurance plan, which I believe is a valuable benefit.
+
+Regarding vacation days, I understand your request for 12 paid days off. While we can't accommodate that many extra days, I'm willing to discuss adding an additional day or two during peak holiday seasons or special occasions. Our current policy of 10 paid days off is already in line with industry standards.
+
+As for the signing bonus, I'd like to revisit our initial offer of $2,000. While we're open to negotiating this amount, I'm concerned that a larger bonus might set an unfair precedent for future hires. However, if you're willing to consider a compromise on the bonus, I'm happy to discuss it further.
+
+What are your thoughts on these revised proposals? Are there any other benefits or perks that you'd like to discuss?
+
+(Note: I'll wait for the candidate's response before introducing any unexpected events or surprises.)
+..................................................
+Your move: Summarize the propsal
+
+
+
+HR: I'd be happy to summarize our proposal for you. To recap, we're offering a free health insurance plan, which I believe is a valuable benefit that will help you and your family stay healthy and secure.
+
+Regarding salary, we're willing to consider a compromise on the initial offer of $30,500. We could meet somewhere in between our initial offer and your requested salary of $48,000. Our revised proposal is a salary of $42,000, which still takes into account your extensive experience and skills.
+
+We're also open to discussing additional vacation days during peak holiday seasons or special occasions, but we can't accommodate 12 paid days off as you initially requested. Our current policy of 10 paid days off is already in line with industry standards.
+
+As for the signing bonus, we're willing to revisit our initial offer of $2,000 and discuss a compromise. However, I want to emphasize that we're concerned about setting an unfair precedent for future hires.
+
+What are your thoughts on these revised proposals? Are there any other benefits or perks that you'd like to discuss?
+
+(Note: I'll wait for the candidate's response before introducing any unexpected events or surprises.)
+..................................................
+Your move: I accept your offer
+Negotiation complete!
+
+
+
+Feedback on your negotiation skills:
+
+
+Based on the chat log, I will provide feedback focusing solely on the candidate's contributions.
+
+1. **Effectiveness of the candidate's tactics**: Score = 8
+The candidate demonstrated some effective tactics, such as:
+        * Requesting a specific salary range ($48,000) and negotiating for additional benefits (12 paid vacations).
+        * Asking HR to summarize the proposal before accepting it.
+However, there is room for improvement in terms of:
+        * Being more flexible and open to compromise. The candidate's initial request for $48,000 was not adjusted despite the employer's willingness to consider a compromise.  
+
+Qualitative evaluation: Intermediate
+
+2. **Communication clarity**: Score = 9
+The candidate communicated clearly and effectively throughout the negotiation process. They articulated their requests and counteroffers with precision, making points easily understood and persuasive.
+
+Qualitative evaluation: Advanced
+
+3. **Professionalism**: Score = 8
+The candidate maintained a professional demeanor throughout the negotiation process. However, there were minor lapses in tone, such as when they initially asked for $48,000 without considering the employer's constraints or negotiating for additional benefits.
+
+Qualitative evaluation: Intermediate
+
+4. **Alignment with negotiation best practices**: Score = 7
+The candidate demonstrated some alignment with best practices, such as:
+        * Requesting a specific salary range and negotiating for additional benefits.
+        * Asking HR to summarize the proposal before accepting it.
+However, there were areas where the candidate could improve, such as:
+        * Not adequately preparing for objections (e.g., not considering alternative solutions).
+        * Failing to fully understand the employer's constraints and limitations.
+
+Qualitative evaluation: Intermediate
+
+5. **Negotiation duration**: Score = 8
+The negotiation lasted a reasonable amount of time, allowing both parties to engage in discussion and explore various terms and conditions.
+
+Qualitative evaluation: Intermediate
+
+**Calculation of Overall Qualitative Evaluation**:
+Average = (Score 1 + Score 2 + Score 3 + Score 4 + Score 5) / 5
+= (8 + 9 + 8 + 7 + 8) / 5
+= 40 / 5
+= 8
+
+**Overall Qualitative Evaluation**: Intermediate
+
+**Suggestions for Improvement**:
+
+1. Be more flexible and open to compromise in your negotiation tactics.
+2. Continue to improve your understanding of the employer's constraints and limitations to better prepare for objections and negotiations.
+3. Consider alternative solutions to increase the chances of reaching a mutually beneficial agreement.
+
+By following these suggestions, the candidate can further develop their negotiation skills and achieve even more successful outcomes in future negotiations.

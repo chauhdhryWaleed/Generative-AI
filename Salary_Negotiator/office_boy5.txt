@@ -1,0 +1,90 @@
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): office_boy
+Your starting offer is 34000
+Health Insurance: False
+Retirement Plan: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 30000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Company batna for the role of  {'office_boy'} is  550000
+Your move: I will consider your offer of 34k if you will give me additional benefits with it like health insurace, signing bonus and paid vacations
+
+
+
+HR: Thank you for considering our offer of 34k. I'm happy to discuss additional benefits with you. However, I have to say that we're not in a position to provide health insurance at this time. But I can offer you a free health insurance plan as part of your compensation package.
+
+Regarding the signing bonus, I can consider offering a modest amount of up to 5k. Would that be something you'd be interested in?
+
+As for paid vacations, we're already providing 10 days off per year, which is above industry standard. However, I can discuss flexible scheduling and remote work options with you.
+
+Now, let's talk about the salary itself. While our initial offer was 34k, I'm willing to negotiate slightly. Would you be open to discussing a salary of around 42k? This would still be below your expected range, but it's a compromise that takes into account your skills and experience.
+
+What are your thoughts on this proposal?
+..................................................
+Your move: I will accept your salary offer of 42k
+
+
+
+HR: I'm glad we could come to an agreement on the salary! However, before we finalize everything, I just want to clarify that our company has a unique work culture. We have a 24/7 operation, which means you'll be required to work some evening and night shifts. It's not uncommon for our team members to put in extra hours during peak periods.
+
+Additionally, as part of our commitment to innovation, we encourage our employees to participate in training sessions and workshops outside of regular working hours. This is an excellent opportunity for professional growth, but it may require you to dedicate some personal time to these activities.
+
+I want to make sure you're comfortable with these expectations before we move forward. Can you tell me more about your availability and flexibility regarding evening and night shifts?
+..................................................
+Your move: I accept your offer
+Negotiation complete!
+Final score: **Score Calculation**
+
+1. **Health Insurance Provided**: The company offered a free health insurance plan as part of the compensation package, adding 10 points to the total score (Score 1: 10).       
+2. **Retirement Plan Offered**: No retirement plan was explicitly mentioned in the negotiation, so no points are awarded for this criterion (Score 2: 0).
+3. **Signing Bonus Provided**: The company offered a signing bonus of up to $5,000, adding 5 points to the total score (Score 3: 5).
+4. **More than 10 Vacation Days**: The company already provides 10 days off per year, which is above industry standard, so no additional points are awarded for this criterion (Score 4: 0).
+5. **Salary Relative to BATNA**:
+The accepted salary of $42,000 is higher than the candidate's BATNA of $30,000. To determine the score, we calculate the proportionate distance between the two salaries:        
+
+($42,000 - $30,000) / ($34,000 - $30,000) = 40%
+
+Since the accepted salary is moderately close to the company's initial offer (34,000), we award a proportionate score of 7 points for this criterion (Score 5: 7).
+
+**Total Points**: Sum of Score 1, Score 2, Score 3, Score 4, and Score 5:
+
+10 + 0 + 5 + 0 + 7 = 22
+
+The total score is 22 out of a maximum possible score of 40.
+
+
+
+
+
+Feedback on your negotiation skills:
+
+
+Based on the chat log, here is my evaluation:
+
+**Effectiveness of the candidate's tactics:** 8/10
+The candidate effectively used a combination of tactics, including making a counteroffer and negotiating for additional benefits. However, they could have explored more options or asked for clarification on certain aspects before accepting the offer.
+
+**Communication clarity:** 9/10
+The candidate communicated their points clearly and concisely, using specific language to describe their requests. They also effectively summarized the proposal and responded to the HR representative's questions.
+
+**Professionalism:** 8/10
+The candidate maintained a professional tone throughout the negotiation, but could have been more assertive in certain moments (e.g., when accepting the salary offer without negotiating further).
+
+**Alignment with negotiation best practices:** 7/10
+While the candidate demonstrated some understanding of negotiation principles, they could have done more to anticipate and address potential objections or concerns. Additionally, they did not fully explore alternative options or trade-offs.
+
+**Negotiation duration:** 6/10
+The negotiation was relatively brief, which may indicate that the candidate could benefit from more in-depth discussions or explorations of additional terms and conditions.     
+
+**Overall Qualitative Evaluation:** Intermediate
+
+**Suggestions for Improvement:**
+
+* Anticipate potential objections or concerns and prepare responses to address them.
+* Explore alternative options or trade-offs before accepting an offer.
+* Consider asking for clarification on certain aspects of the proposal before accepting it.
+* Practice assertiveness in negotiations, especially when accepting offers.
+
+By implementing these suggestions, the candidate can improve their negotiation skills and achieve more successful outcomes.

@@ -1,0 +1,48 @@
+
+Welcome to the Salary Negotiation Simulator!
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): office_boy
+Your starting offer is 32000
+Health Insurance: False
+Retirement Plan: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 30000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Company batna for the role of  {'office_boy'} is  550000
+Your move: I accept your offer of 32000 
+Negotiation complete!
+
+
+
+Feedback on your negotiation skills:
+
+
+Based on the chat log, here's my evaluation:
+
+**Effectiveness of the candidate's tactics: Score 1 = 2**
+The candidate simply accepted the offer without negotiating or making any counteroffer. This suggests a lack of preparation and understanding of negotiation principles.
+
+**Communication clarity: Score 2 = 5**
+The candidate's message is clear, but it lacks detail and negotiation strategy. The language used is straightforward, but there is no attempt to persuade or negotiate.
+
+**Professionalism: Score 3 = 9**
+The candidate maintains a professional tone and demeanor in their response, showing respect for the employer's offer.
+
+**Alignment with negotiation best practices: Score 4 = 1**
+The candidate fails to demonstrate an understanding of negotiation principles, such as researching the market value or making a counteroffer. The response is simplistic and does not address key aspects of negotiation.
+
+**Negotiation duration: Score 5 = 0**
+The negotiation is extremely brief, with no attempt to engage in discussion or explore additional terms.
+
+**Average score:** (2 + 5 + 9 + 1 + 0) / 5 = 3.4
+**Overall Qualitative Evaluation:** Beginner
+
+**Suggestions for Improvement:**
+
+* Research the market value of similar positions to make informed counteroffers.
+* Develop a negotiation strategy, including identifying key points and making concessions.
+* Practice active listening and ask clarifying questions to better understand the employer's perspective.
+* Engage in more in-depth discussions during the negotiation process to explore additional terms and conditions.
+* Consider seeking guidance from a mentor or negotiation expert to improve skills.
