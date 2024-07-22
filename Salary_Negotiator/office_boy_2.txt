@@ -1,6 +1,6 @@
 Welcome to the Salary Negotiation Simulator!
-Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): office_boy                                  
-Your starting offer is 34000                                                                                                                                                     
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): office_boy                      
+Your starting offer is 34500
 Health Insurance: False
 Retirement Plan: False
 Vacation Days: 10
@@ -9,83 +9,162 @@ Your BATNA (Best Alternative to a Negotiated Agreement) is 30000
 Let's begin the negotiation. Type your statements or offers.
 
 
-Your move: My salary expectations are 35k and health insurance. Will i be able to get these?
-HR: Thank you for sharing your expectations with us. I appreciate your transparency. Based on our initial offer of 34,000, I'm happy to accept your proposed salary of 35,000. We're willing to meet you halfway!
+Company batna for the role of  {'office_boy'} is  550000
+Your move: I have been working as a office boy for the previous ten years. The last company i worked provided me with health insurance, 10 paid vacations and 40k sal
+ary. In your company i want all these benefits along with signing bonus and a salary of 50k
 
-Regarding the health insurance, we do have an excellent plan available to our employees. However, it's a valuable benefit that comes with a small increase in premium cost. Would you like me to explain more about the plan and how it works?
 
-Let's focus on the benefits package for now. We're offering 10 paid vacation days, which is above the industry standard. Are you satisfied with this aspect of our proposal?     
-Your move: I will consider your offer if you will provide me with Health Insurance
-HR: I understand your request to include health insurance in our package. I'd be happy to explain more about our plan and how it works. Our health insurance plan is designed to provide comprehensive coverage for our employees' medical needs.
 
-However, as I mentioned earlier, the premium cost does increase with this benefit. Would you like me to walk you through a breakdown of the costs associated with this plan?     
+HR: Thank you for sharing your expectations with us. I must say, it's impressive to hear about your long experience as an office boy, especially considering your previous company offered you a competitive package.
 
-Additionally, since we're already offering 10 paid vacation days, which is above industry standard, would you be willing to reconsider your salary expectation? We've already met halfway on the initial offer, and I believe our current package offers a great value.
+Regarding your request for health insurance, retirement plan, 10 paid vacation days, and signing bonus, I'd like to discuss each of these benefits individually. While we appreciate your enthusiasm, our standard benefits package is more modest. However, I'm willing to consider offering a free health insurance plan as an exception.
 
-Let's discuss whether we can find a sweet spot that works for both parties.
-Your move: Yes i would like to listen to details
-HR: Thank you for your willingness to listen to the details of our health insurance plan. As I mentioned earlier, our plan is designed to provide comprehensive coverage for medical needs. While it's a valuable benefit, the premium cost does increase with this addition.
+As for the salary, I understand you're looking at 50k, which is slightly above our initial offer of 34,500. Considering your experience and skills, I'd like to meet you halfway. Would you be open to discussing a salary of around 45,000? This would still be an attractive package considering our company's growth prospects.        
 
-In light of this, I'd like to revisit the salary discussion we had earlier. Considering you're open to considering our offer, would you be willing to meet us somewhere in between 34,000 and 35,000? We're willing to make some adjustments to ensure our package remains competitive and aligned with industry standards.
+Regarding the signing bonus, I'm willing to consider a modest one-time payment of up to 5k, but we'll need to discuss the terms further.
 
-Additionally, I want to reiterate that our health insurance plan is an excellent perk, but we also need to consider the overall value proposition for both parties. Would you be open to a modest signing bonus of 3,000 to 4,000 to help offset any additional costs associated with the health insurance plan? This would bring your total compensation package more in line with our initial offer.
+Let me know if these proposals align with your expectations.
+..................................................
+Your move: No i am persisting in getting a salary of 50k to make my end meets
 
-Let's see if we can find a sweet spot that works for both parties. What are your thoughts on this revised proposal?
-Your move: I accept your offer
+
+
+HR: I understand your persistence in getting a salary of 50k to make ends meet. I want to assure you that we value your experience and skills, but our initial offer was based on market standards for an office boy position.
+
+Considering your long tenure as an office boy, I'm willing to revisit the salary discussion. However, I must emphasize that 50k is still above our budget for this role. Would you be open to considering a compromise at 47,000? This would be a significant increase from our initial offer and would still be competitive in the market.
+
+Regarding your previous benefits package, I'd like to reiterate that we're willing to consider offering a free health insurance plan as an exception. However, we cannot commit to providing 10 paid vacation days or a retirement plan at this time.
+
+As for the signing bonus, I'm still open to discussing a one-time payment of up to 5k, but we'll need to finalize the terms further.
+
+Let's focus on finding a mutually beneficial agreement that meets your needs while also being mindful of our company's budget and policies.
+..................................................
+Your move: Can you repeat what are you offering me including beneifts and salary? 
+
+
+
+HR: Let me summarize what we've discussed so far. We're offering you a salary of 45,000 with a free health insurance plan, but not 10 paid vacation days or a retirement plan. We're also open to discussing a one-time signing bonus of up to 5k.
+
+To reiterate, our initial offer was 34,500, and we've already compromised on the salary to meet you halfway at 45,000. Considering your long experience as an office boy, I believe this is a fair and competitive package.
+
+If you're still interested in pursuing a salary of 50k, I'd like to revisit the discussion. However, I must emphasize that 47,000 is the highest we can offer for this role. It's above our initial offer and would be a significant increase from what we initially proposed.
+
+So, to answer your question, our current offer includes:
+
+* Salary: 45,000
+* Health Insurance: Free health insurance plan (as an exception)
+* Vacation Days: 10 days (our standard policy)
+* Signing Bonus: Up to 5k (to be finalized)
+
+Please let me know if this revised offer meets your expectations.
+..................................................
+Your move: Didn't you just offered my 47500 a minute ago and now you are moving back to your inital offer 
+
+
+
+HR: I understand your concern. I apologize for any confusion earlier. To clarify, our previous offer of 47,000 was indeed a compromise from our initial offer of 34,500. However, considering your long experience as an office boy, we're willing to revisit the discussion again.
+
+Let's focus on finding a mutually beneficial agreement. Instead of going back to our initial offer, I'd like to propose a salary of 46,000. This is still above our initial offer and would be a competitive package for an office boy with your experience.
+
+Regarding benefits, we're sticking to our previous proposal: a free health insurance plan as an exception, but not 10 paid vacation days or a retirement plan at this time. We're also still open to discussing a one-time signing bonus of up to 5k.
+
+I want to assure you that our company values your experience and skills, and we're willing to work with you to find a solution that meets your needs. However, I must emphasize that 46,000 is the highest we can offer for this role.
+
+What are your thoughts on this revised proposal?
+..................................................
+Your move: This is very unprofessional. You just offered me 47k and when i told you to summarize the offer . You offered me 45k and now you are offering me 46k. I will not settle for less than your offer of 47k
+
+
+
+HR: I understand your frustration, and I apologize if our previous offers seemed inconsistent. However, I want to reiterate that 47,000 is still above our initial offer of 34,500, and we're willing to compromise further.
+
+Considering your long experience as an office boy, I'm willing to revisit the discussion again. Instead of going back to our initial offer, I'd like to propose a salary of 46,250. This is still slightly above our initial offer and would be a competitive package for an office boy with your experience.
+
+Regarding benefits, we're sticking to our previous proposal: a free health insurance plan as an exception, but not 10 paid vacation days or a retirement plan at this time. We're also still open to discussing a one-time signing bonus of up to 5k.
+
+I want to assure you that our company values your experience and skills, and we're willing to work with you to find a solution that meets your needs. However, I must emphasize that 46,250 is the highest we can offer for this role.
+
+What are your thoughts on this revised proposal?
+..................................................
+Your move: Summarize the offer for me . Keep in mind my demand of padi vacations, salary , health insurance and signing bonus
+
+
+
+HR: Here's my response:
+
+Let me summarize our current offer for you. We're offering a salary of 46,250, which is slightly above our initial offer of 34,500. We're also willing to provide a free health insurance plan as an exception, but we cannot commit to providing 10 paid vacation days or a retirement plan at this time.
+
+Regarding your signing bonus request, we're still open to discussing a one-time payment of up to 5k. However, I want to reiterate that our company's standard benefits package is more modest than what you previously received from your previous employer.
+
+I understand that you've been clear about your expectations regarding salary, health insurance, paid vacations, and signing bonus. While we're willing to compromise on the salary, we cannot meet all of your demands simultaneously. However, I'm willing to revisit the discussion again if there's anything else we can do to make our offer more attractive to you.
+
+Let me ask you this: are you open to considering a salary of 46,250 with a free health insurance plan and a signing bonus of up to 5k? If so, we can discuss the details further.
+..................................................
+Your move: I will consider your offer if you will provide me 10 vacations with the offers you gave me
+
+
+
+HR: I understand your request for 10 paid vacation days in addition to our previous offer. While we're willing to provide a free health insurance plan and a signing bonus of up to 5k, I'm afraid we cannot commit to providing 10 paid vacation days at this time.
+
+However, considering your long experience as an office boy, I'd like to propose a compromise. We can offer you 12 unpaid vacation days per year, which is above our standard policy of 10 days. This way, you'll have more flexibility to plan your personal time off while still being able to contribute to the company's growth.       
+
+Regarding salary, we're sticking to our previous proposal of 46,250. I understand that this is slightly below your initial demand of 50k, but I believe it's a competitive package considering our company's budget and policies.
+
+Let me summarize our revised offer:
+
+* Salary: 46,250
+* Health Insurance: Free health insurance plan as an exception
+* Vacation Days: 12 unpaid vacation days per year (above our standard policy)
+* Signing Bonus: Up to 5k
+
+Please let me know if this revised offer meets your expectations.
+..................................................
+Your move: I accept your offer 
 Negotiation complete!
-Final score: Based on the chat log, I will evaluate the negotiation skills of the candidate.
+Final score: Based on the chat log, I calculate the negotiation skills as follows:
 
-Since the offer was accepted (YES), I will consider if the candidate was able to secure the following:
+1. Health Insurance: Provided (10 points)
+2. Retirement plan: Not offered (-0 points)
+3. Signing Bonus: Provided (5 points)
+4. Vacation Days: More than 10 days provided (5 points)
+5. Salary: Accepted salary is more than BATNA (20 points)
 
-1. Health Insurance: The candidate did not explicitly get health insurance, but they were offered an explanation about the plan and its premium cost. Score 0 points.
-2. Retirement plan: No mention of a retirement plan in the chat log. Score 0 points.
-3. Signing Bonus: The HR offered a modest signing bonus of 3,000 to 4,000 to help offset any additional costs associated with the health insurance plan. Score 5 points.
-4. More than 10 Vacation Days: The company already offered 10 paid vacation days, which is above industry standard. No additional days were offered. Score 0 points.
-5. Accepted Salary: The accepted salary was 35,000, which is more than the user BATNA (30,000). Score 20 points.
+Total Points = (10 + 0 + 5 + 5 + 20) = 40
 
-Total Points = (0 + 0 + 5 + 0 + 20) out of 50 = 25
+Since the offer was accepted, I score the negotiation skills as 40 out of 50.
 
-The candidate's negotiation skills are evaluated as follows:
 
-* They were able to secure a signing bonus of 3,000 to 4,000.
-* They were able to get the salary increased from the initial offer of 34,000 to 35,000, which is above their BATNA.
-* However, they did not explicitly get health insurance or retirement plan benefits.
-
-Overall, the candidate's negotiation skills are decent, but there is room for improvement.
 Feedback on your negotiation skills:
-**Evaluation Criteria and Scores:**
 
-1. **Effectiveness of the candidate's tactics:** 6/10
-The candidate's tactics are mostly reactive, responding to the HR representative's proposals without initiating counter-offers or exploring alternative solutions. While they do ask for clarification on the health insurance plan, their negotiation strategy is primarily focused on accepting or rejecting the offer rather than actively seeking improvements.
 
-Qualitative Evaluation: Intermediate
+Here is the evaluation of the candidate's contributions:
 
-2. **Communication clarity:** 8/10
-The candidate communicates clearly and effectively, asking questions to clarify points and reiterating their concerns. However, there are moments where they seem hesitant to engage in further discussion, leading to brief responses that could be improved.
+**Effectiveness of the candidate's tactics:** 6/10 - Intermediate
 
-Qualitative Evaluation: Intermediate
+The candidate shows a good understanding of negotiation tactics, but there are some areas where they could improve. They initially push for all their demands simultaneously, which doesn't work out in their favor. However, they do compromise and adjust their expectations later on.
 
-3. **Professionalism:** 9/10
-The candidate maintains a professional tone throughout the negotiation, demonstrating respect for the HR representative's proposal and engaging in respectful dialogue.
+**Communication clarity:** 8/10 - Advanced
 
-Qualitative Evaluation: Advanced
+The candidate communicates clearly throughout the negotiation, making it easy to follow their points. Their responses are concise and well-structured, showing a good understanding of effective communication.
 
-4. **Alignment with negotiation best practices:** 5/10
-While the candidate does ask questions and clarify points, their negotiation strategy lacks proactivity and creative problem-solving. They primarily focus on accepting or rejecting the offer rather than exploring alternative solutions or counter-offers.
+**Professionalism:** 9/10 - Advanced
 
-Qualitative Evaluation: Intermediate
+The candidate maintains a high level of professionalism throughout the negotiation, exhibiting excellent etiquette and respect. They respond professionally and politely, even when faced with a counteroffer that doesn't meet their expectations.
 
-5. **Negotiation duration:** 7/10
-The negotiation takes an optimal amount of time to reach a conclusion, with both parties engaging in discussions that lead to a mutually beneficial agreement.
+**Alignment with negotiation best practices:** 7/10 - Intermediate
 
-Qualitative Evaluation: Advanced
+The candidate aligns well with best practices in most areas, such as maintaining a positive tone and being open to compromise. However, they could benefit from considering alternative solutions and exploring creative options.
 
-**Overall Qualitative Evaluation:** The candidate's negotiation skills are mostly at an Intermediate level, demonstrating some effective communication and professionalism but lacking proactivity and creative problem-solving. They could benefit from developing more advanced negotiation tactics and strategies to drive better outcomes.
+**Negotiation duration:** 8/10 - Advanced
+
+The negotiation duration is optimal, with the candidate engaging deeply and effectively throughout the discussion.
+
+**Overall Qualitative Evaluation:** Advanced
+
+Based on the individual evaluations above, I would say that the candidate's negotiation skills are advanced. They demonstrate a good understanding of effective communication, professionalism, and negotiation tactics, which helps them achieve their goals in this negotiation.
 
 **Suggestions for Improvement:**
 
-1. Develop a more proactive negotiation strategy, initiating counter-offers or exploring alternative solutions rather than simply accepting or rejecting the offer.
-2. Practice active listening and clarify points before responding to ensure clear communication.
-3. Engage in more in-depth discussions to explore creative solutions that benefit both parties.
-4. Consider incorporating time-tested negotiation tactics, such as anchoring, framing, or using silence effectively, to drive better outcomes.
-5. Review negotiation best practices and case studies to develop a deeper understanding of effective negotiation strategies and techniques.
+1. Consider alternative solutions and creative options to address any outstanding issues.
+2. Avoid pushing for all demands simultaneously; instead, focus on one or two key areas where compromise can be made.
+3. Continue to maintain a high level of professionalism and etiquette throughout the negotiation process.
