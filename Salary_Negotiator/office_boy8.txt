@@ -1,0 +1,99 @@
+Welcome to the Salary Negotiation Simulator!
+Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): office_boy                                  
+Your starting offer is 30000
+Health Insurance: False
+Retirement Plan: False
+Vacation Days: 10
+Signing Bonus: 0
+Your BATNA (Best Alternative to a Negotiated Agreement) is 30000
+Let's begin the negotiation. Type your statements or offers.
+
+
+Company batna for the role of  {'office_boy'} is  55000
+Your move: I will consider your offer but what other benefits are you offering me?
+
+
+
+HR: I'm happy to discuss the compensation package with you. As we previously discussed, I'd like to reiterate that our initial offer is competitive and aligned with your qualifications. Considering your interest in exploring other benefits, I'd like to propose a free health insurance plan for you.
+
+Regarding vacation days, we're already offering 10 paid days off per year, which is above the industry standard. However, if you'd like to discuss additional time off or flexible work arrangements, I'm open to exploring options that suit your needs.
+
+As for signing bonus, while it's not part of our initial offer, I can consider a modest signing bonus up to $5,000. But before we get into that, let's focus on the overall compensation package and ensure it meets your expectations.
+
+Can you tell me more about what you're looking for in terms of salary? Are there any specific benefits or perks that are non-negotiable for you?
+..................................................
+Your move: I am looking for salary close to 50k
+
+
+
+HR: I understand your desire for a salary close to $50k. Considering your qualifications and experience, I'd like to revisit our initial offer. While we initially discussed an offer that's competitive and aligned with your skills, I'm willing to make some adjustments.
+
+Let's focus on the overall compensation package. We're already offering 10 paid vacation days per year, which is above industry standards. Additionally, we can discuss flexible work arrangements if needed.
+
+Regarding health insurance, as previously mentioned, I'd like to propose a free health insurance plan for you. This will provide you with additional benefits and support throughout your tenure with our company.
+
+In terms of salary, I'm willing to make a counteroffer that's slightly higher than our initial proposal. Based on your expectations, I'd like to offer a salary of $48,000 per year. This is still within the acceptable range for our company while taking into account your qualifications and experience.
+
+However, before we finalize this offer, I'd like to discuss the signing bonus. While it's not part of our initial proposal, I can consider offering a modest signing bonus up to $5,000. What are your thoughts on this?
+..................................................
+Your move: I will accept your offer 
+Negotiation complete!
+Final score: Based on the negotiation skills demonstrated by the candidate, I scored the following points:
+
+1. Health Insurance Provided: ADD 10 points (Score 1)
+2. Retirement Plan Offered: No retirement plan offered, so no points awarded (Score 2) = 0
+3. Signing Bonus Provided: Yes, a signing bonus up to $5,000 was proposed, so add 5 points (Score 3)
+4. More than 10 Vacation Days: The company already offers 10 paid vacation days per year, which is above industry standards, so no additional points awarded (Score 4) = 0       
+5. Salary Relative to BATNA:
+        * Company's BATNA is $55,000.
+        * Accepted salary is $48,000, within $7,000 of the company's BATNA.
+
+Total Points: Score 1 + Score 3 + [Salary Relative to BATNA score]
+= 10 + 5 + [insert Salary Relative to BATNA score]
+
+Since the exact scoring for Salary Relative to BATNA is not provided, I cannot calculate the total points. However, based on the information given, the total points would be a minimum of 15 (10 + 5).
+
+
+
+
+
+Feedback on your negotiation skills:
+
+
+Here is the feedback on the candidate's negotiation skills:
+
+Feedback on your negotiation skills:
+
+
+Evaluation Metrics
+
+
+1. **Effectiveness of the candidate's tactics**: 7/10
+    * Qualitative Evaluation: Intermediate
+    * The candidate demonstrated some effective tactics, such as asking for a higher salary and considering alternative benefits. However, they could have explored more options to negotiate additional benefits or terms.
+
+2. **Communication clarity**: 8/10
+    * Qualitative Evaluation: Advanced
+    * The candidate communicated their points clearly and precisely, using language that was easy to understand. They effectively conveyed their goals and expectations throughout the negotiation.
+
+3. **Professionalism**: 9/10
+    * Qualitative Evaluation: Advanced
+    * The candidate maintained a high level of professionalism throughout the negotiation, demonstrating respect and politeness towards the HR representative.
+
+4. **Alignment with negotiation best practices**: 6/10
+    * Qualitative Evaluation: Intermediate
+    * While the candidate demonstrated some understanding of negotiation principles, they could have explored more strategies to address potential objections or concerns from the employer.
+
+5. **Negotiation duration**: 8/10
+    * Qualitative Evaluation: Advanced
+    * The negotiation lasted for a reasonable amount of time, allowing both parties to explore the terms and engage in discussion.
+
+**Overall Qualitative Evaluation**: Intermediate
+
+**Suggestions for Improvement**:
+
+1. Consider exploring alternative benefits or terms that might be more negotiable with the employer.
+2. Anticipate potential objections from the employer and prepare counterarguments to address them effectively.
+3. Continue to maintain a high level of professionalism throughout the negotiation process.
+
+
