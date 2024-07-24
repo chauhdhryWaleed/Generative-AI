@@ -1,4 +1,5 @@
 Welcome to the Salary Negotiation Simulator!
+
 Please enter the job role for negotiation (e.g., office_boy, software_engineer, senior_software_engineer, ai_engineer, ml_engineer): software_engineer
 Your starting offer is 63500
 Health Insurance: False
