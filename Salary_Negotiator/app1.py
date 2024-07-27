@@ -1,5 +1,6 @@
 import random
 import ollama
+
 class NegotiationSimulator:
     def __init__(self):
         self.model_name = "llama3:8b-instruct-q4_K_M"  # or "llama2:13b" depending on your Ollama setup
