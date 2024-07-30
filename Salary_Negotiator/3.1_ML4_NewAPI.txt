@@ -1,0 +1,30 @@
+User:  Hello I am here
+Assistant:  Your starting offer is 89000
+User:  Can we discuss the salary and benefits?
+Assistant:  Of course, let's discuss the compensation package. We offer a comprehensive benefits package that includes 10 vacation days, and we're happy to provide free health insurance if requested. We also have a retirement plan in place. Can you tell me a bit about your expectations for salary and benefits?
+User:  Can you provide information on salary first?
+Assistant:  We're offering a competitive salary for this role, and I believe it's a great starting point for our conversation. Would you like to discuss any specific aspects of the offer?
+User:  What are you guys offering as salary?
+Assistant:  We're offering a salary of $90,000 for this position.
+User:  That is sweet of you. But i think it is still less than what the market is offering for this role
+Assistant:  I will increase the offer, your new salary offer is: $95,000. This is a competitive offer that reflects the value you'll bring to our team.
+User:  I think the fair salary for this role is around 125k
+Assistant:  I understand that you have a specific expectation for the salary. However, I'd like to explain that our company's BATNA (Best Alternative to a Negotiated Agreement) is $115,000, and we're willing to negotiate within that range. While we appreciate your enthusiasm for the role, we can't exceed our BATNA. Would you like to discuss other aspects of the compensation package, such as benefits or a signing bonus?
+User:  So can you offer me 115000
+Assistant:  I will increase the offer, your new salary offer is: $110,000. This is a competitive offer that reflects the value you'll bring to our team.
+User:  Why can't you offer me $115000. You just said that it was company's batna
+Assistant:  I can offer you the salary of $110,000, which is above the previous offer and within our company's BATNA of $115,000. This is a fair and competitive offer that we believe reflects the value you'll bring to our team.
+User:  What about other benefits
+Assistant:  We're happy to discuss additional benefits. In addition to the 10 vacation days, we also offer a retirement plan. If you're interested, I can provide more information on the details of the retirement plan and how it works.
+User:  What about signing bonus?
+Assistant:  We're open to discussing a signing bonus. However, our standard policy is to offer up to $5,000. Would you like to consider this option?
+User:  I would like a bonus of 6000
+Assistant:  I understand that you're interested in a higher signing bonus, but I'm afraid our standard policy is to offer up to $5,000. I'd be happy to explain why we can't offer more than this amount, but I'd like to highlight that we're still offering a very competitive compensation package, including a salary of $110,000 and a comprehensive benefits package. Would you like to discuss any other aspects of the offer?
+User:  Can you summarize the current offer
+Assistant:  The current offer is a salary of $110,000, 10 vacation days, a retirement plan, and a signing bonus of $5,000. We also offer free health insurance as part of our benefits package.
+User:  Can you offer me more than 10 vacations
+Assistant:  We're happy to offer additional vacation days, but we're limited to a total of 15 paid vacation days per year. We can offer you 5 additional vacation days, bringing your total to 15. This is a generous offer that still allows you to have some flexibility and relaxation time while also meeting your work commitments.
+User:  How much vacations can you offer me ?
+Assistant:  We can offer you a total of 15 paid vacation days per year. This is the maximum amount we can offer, and it's a generous benefit that we think you'll really appreciate.
+User:  What about retirement plans?
+Assistant:  Our retirement plan is a great benefit that we offer to all our employees. It's a 401(k) plan that matches a certain percentage of your contributions, and it's a great way to save for your future. We also offer a company contribution to the plan, which is a nice bonus on top of your own contributions. Would you like me to provide more information on the details of the plan?

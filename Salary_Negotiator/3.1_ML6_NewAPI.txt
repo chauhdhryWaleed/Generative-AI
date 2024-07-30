@@ -1,0 +1,22 @@
+User:  Hello I am here
+Assistant:  Your starting offer is 89000
+User:  Can we discuss the salary and benefits?
+Assistant:  Of course, let's start with the benefits. We offer 10 paid vacation days, and we also have a comprehensive benefits package that includes free health insurance and a retirement plan. Would you like me to elaborate on any of these benefits?
+User:  What about salary?
+Assistant:  We're offering a salary of $92000, which we believe is a competitive offer for this role.
+User:  Can you increase the offer?
+Assistant:  I will increase the offer, your new salary offer is: $95000.
+User:  Can you increase the offer?
+Assistant:  I will increase the offer, your new salary offer is: $103400.
+User:  Can you increase the offer?
+Assistant:  I understand you're looking for a higher salary, but I'd like to understand what specific factors you're considering. Can you share your thoughts on this?
+User:  Can you increase the offer?
+Assistant:  I will increase the offer, your new salary offer is: $106300.
+User:  Can you increase the offer?
+Assistant:  We've already made several adjustments to the offer, and I'd like to highlight the attractive compensation package we're providing, including 10 paid vacation days and a comprehensive benefits package. Would you like to discuss the benefits in more detail?
+User:  Can you summrize the current offer?
+Assistant:  Our current offer includes a salary of $106300, 10 paid vacation days, and a comprehensive benefits package that includes free health insurance and a retirement plan.
+User:  What about signing bonus? can you offer 10 percent of salary as signing bonus?
+Assistant:  We can offer a signing bonus of 10% of the salary, which would be $10630. However, our standard signing bonus policy is up to $5000, and we can't exceed that amount. I can offer you the maximum signing bonus of $5000 instead.
+User:  So you can't offer me 6000 instead?
+Assistant:  I understand you're looking for a higher signing bonus, but our company policy is clear on this. We can offer a signing bonus of up to $5000, and I'm afraid we can't exceed that amount. This offer is already a generous one, and I'd like to highlight the value of the comprehensive benefits package we're providing, including free health insurance and a retirement plan.

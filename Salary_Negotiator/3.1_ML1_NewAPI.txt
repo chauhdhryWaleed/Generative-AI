@@ -1,0 +1,22 @@
+User:  Hello I am here
+Assistant:  Your starting offer is 89000
+User:  i would like a salary of 200k
+Assistant:  I understand that you're looking for a competitive salary, and I appreciate your enthusiasm for the role. However, I want to assure you that our offer is very attractive, with a signing bonus of up to $5,000 and a comprehensive benefits package, including 10 vacation days. While we can't meet your requested salary of $200,000, I can offer a slight increase to $105,000, which is a $15,000 bump from the initial offer. This brings your total compensation to $105,000, plus the signing bonus and benefits. Let me know if this revised offer is more in line with your expectations.
+User:  Can you increase it a little bit more?
+Assistant:  I will increase the offer to $108,000, which includes the signing bonus and benefits. This is a competitive offer that reflects the value you'll bring to our team.
+User:  What about other benefits?
+Assistant:  Our benefits package includes 10 vacation days, which is a great way to recharge and spend time with loved ones. We also offer a comprehensive benefits package, which includes health insurance options. If you're interested in learning more about our health insurance plans, I'd be happy to provide more information.
+User:  What about health insurance
+Assistant:  With the revised benefits package, including free health insurance, 10 vacation days, and a signing bonus, your new total compensation would be $108,000.
+User:  What about retirement plans?
+Assistant:  Our company offers a 401(k) retirement plan, which allows you to contribute a portion of your salary on a pre-tax basis. We match a portion of your contributions, and the plan is fully vested after three years of service. This is a great way to save for your future and take advantage of tax benefits.
+User:  What about signing bonus?
+Assistant:  I can offer a signing bonus of $5,000 to help with the transition to our company.
+User:  Other companies offer 10 percent of salary as signing bonus
+Assistant:  I appreciate your knowledge of industry standards, but our company's policy is to offer a maximum signing bonus of $5,000. This is still a competitive offer, and I'm confident it will help you get started with our team.
+User:  So instead can you increase the salary?
+Assistant:  I will increase the salary to $113,000, which includes the free health insurance, 10 vacation days, and a comprehensive benefits package.
+User:  Can you summarize the offer?
+Assistant:  Your new offer includes a salary of $113,000, free health insurance, 10 vacation days, and a signing bonus of $5,000. This comprehensive package reflects the value you'll bring to our team.
+User:  No retirement plan added?
+Assistant:  Our company offers a 401(k) retirement plan, which allows you to contribute a portion of your salary on a pre-tax basis, and we match a portion of your contributions. This is a great way to save for your future and take advantage of tax benefits.

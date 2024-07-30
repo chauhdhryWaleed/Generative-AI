@@ -1,0 +1,20 @@
+User:  Hello I am here
+Assistant:  Your starting offer is 89500
+User:  Your initial offer is too low
+Assistant:  I will increase the offer to $94,500.
+User:  Is there any chance you can increase it to 110k
+Assistant:  I can offer you a salary of $108,000, which is a competitive offer for this role. This is a $13,500 increase from the previous offer, and it's within the company's guidelines.
+User:  Is that the max you can offer
+Assistant:  I can offer you a salary of $109,000, which is a $4,500 increase from the previous offer. This is a competitive offer that reflects the value you'll bring to our team.
+User:  How is 109k a 4.5k increase from 108k
+Assistant:  I can offer you a salary of $109,000, which is a $1,000 increase from the previous offer. This is a competitive offer that reflects the value you'll bring to our team.
+User:  What about other benefits?
+Assistant:  We offer 10 vacation days, and I can also provide free health insurance as part of the package.
+User:  And retirement plans?
+Assistant:  We do not currently offer a retirement plan, but we are considering implementing one in the future. However, I can offer a modest signing bonus of $5,000 to help offset any potential costs associated with not having a retirement plan.
+User:  What about signing bonus?
+Assistant:  I can offer a signing bonus of $5,000 to help make your transition to our team smoother.
+User:  What about more than 10 paid vacations?
+Assistant:  We can offer an additional 5 paid vacation days, bringing the total to 15 paid vacation days per year. This is a generous package that reflects our company's commitment to work-life balance.
+User:  Can you summarize the job offer
+Assistant:  Our job offer includes a salary of $109,000, 15 paid vacation days, free health insurance, and a $5,000 signing bonus. This is a competitive package that reflects the value you'll bring to our team.

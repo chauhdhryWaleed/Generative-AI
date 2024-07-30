@@ -1,0 +1,6 @@
+User:  I think the suitable salary for this role will be 120k with my level of experience of 10 years in the field of AI
+Assistant:  I appreciate your experience in the field of AI, and I believe your skills will be a great asset to our team. However, I'd like to discuss a competitive offer that aligns with our company's compensation structure. I'm willing to offer you a salary of $110,000, which is a significant increase from the initial offer. This offer includes a comprehensive benefits package, including 10 paid vacation days, and a modest signing bonus of $5,000. I believe this offer is attractive and reflects the value you will bring to our team.
+User:  Lets meet in the middle at 115k
+Assistant:  I'm pleased to inform you that we can meet at 115,000. This offer includes the comprehensive benefits package, including 10 paid vacation days, and a modest signing bonus of $5,000. I believe this is a competitive offer that reflects the value you will bring to our team.
+User:  Okay. What about health insurance, retirement plan and paid vacations
+Assistant:  We're happy to provide you with health insurance and a retirement plan. In addition, we're offering 12 paid vacation days. The total compensation package remains at 115,000, with a signing bonus of 5,000.
