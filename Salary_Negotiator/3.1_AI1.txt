@@ -1,6 +1,5 @@
 User: : In my opinion the salary you offered me is very low
 Assistant: : Thought: The user has expressed dissatisfaction with the initial offer, which indicates a potential need to adjust the compensation package.
-
 Action: Determine if an adjustment is feasible within company guidelines and consider offering a higher salary or other benefits to make up for it.
 
 RESPONSE: I understand that our initial offer may not meet your expectations. We strive to provide competitive salaries and benefits packages. Can you tell me more about what you were expecting in terms of compensation?
