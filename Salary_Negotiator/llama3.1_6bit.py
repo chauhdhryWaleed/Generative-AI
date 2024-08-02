@@ -5,7 +5,7 @@ import time
 from pushbullet import Pushbullet
 
 # Your Pushbullet Access Token
-access_token = 'o.D65e4ilb4gxk07mHWGuzvW87CDxjvS8f'
+access_token = ''
 
 # Initialize Pushbullet
 pb = Pushbullet(access_token)
