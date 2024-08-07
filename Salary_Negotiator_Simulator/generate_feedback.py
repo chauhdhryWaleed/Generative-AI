@@ -1,6 +1,4 @@
 import requests
-
-
 class NegotiationSimulator:
     def __init__(self):
         self.chat_log1 = []
@@ -152,7 +150,7 @@ class NegotiationSimulator:
         Ensure that your evaluation strictly follows the Critical Instructions, scores each metric out of 10, and adheres to the specified guidelines. Failing to do so will result in a breach of company rules.
         """
 
-        url = "http://34.46.232.116:8000/generate"
+        url = "your_Api_key"
         headers = {
             "Content-Type": "application/json"
         }
